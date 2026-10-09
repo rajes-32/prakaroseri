@@ -1,0 +1,1679 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT. PRIMASINDO RAYA ABADI (PRA KAROSERI) - Jasa Karoseri & Custom Hydraulic</title>
+
+    <!-- SEO & OpenGraph Meta -->
+    <meta name="description" content="PT. Primasindo Raya Abadi (PRA Karoseri) - Solusi pembuatan karoseri dump truck, kontainer, tangki, skylift, mixer, dan hydraulic custom profesional di Indonesia.">
+    <meta name="keywords" content="karoseri, dump truck, tangki, kontainer, skylift, hydraulic custom, PRA Karoseri, Bekasi">
+    <meta property="og:title" content="PT. PRIMASINDO RAYA ABADI - Jasa Karoseri Profesional">
+    <meta property="og:description" content="Solusi Karoseri Profesional & Custom Hydraulic untuk Berbagai Kebutuhan Kendaraan Operasional.">
+    <meta property="og:type" content="website">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#002060',
+                            900: '#0b1329',
+                            950: '#060a17',
+                        },
+                        brand: {
+                            teal: '#50B0D0',
+                            green: '#408ca6',
+                            lime: '#50B0D0',
+                            orange: '#50B0D0'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- FontAwesome & Lucide Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutomotiveBusiness",
+      "name": "PT. PRIMASINDO RAYA ABADI",
+      "alternateName": "PRA KAROSERI",
+      "url": "https://primasindoraya.co.id",
+      "telephone": "+6282374077783",
+      "email": "primasindoraya@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Kedaung 254 Cimuning, MustikaJaya",
+        "addressLocality": "Bekasi",
+        "addressRegion": "Jawa Barat",
+        "countryAddress": "ID"
+      }
+    }
+    </script>
+
+    <style>
+        /* Custom UI Tweaks & Polish */
+        .glass-header {
+            background: rgba(10, 23, 38, 0.92);
+            backdrop-filter: blur(12px);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(10,23,38,0.92) 0%, rgba(19,82,110,0.85) 100%), url('logo.jpeg') center/cover no-repeat;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #88C032;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-green selection:text-white pb-16 md:pb-0">
+
+    <!-- TOP NOTIFICATION & CONTACT STRIP -->
+    <div class="bg-navy-950 text-slate-300 text-xs py-2 px-4 hidden md:block border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-6">
+                <span><i class="fa-solid fa-phone text-brand-lime mr-2"></i> 082374077783</span>
+                <span><i class="fa-solid fa-envelope text-brand-lime mr-2"></i> primasindoraya@gmail.com</span>
+                <span><i class="fa-solid fa-location-dot text-brand-lime mr-2"></i> MustikaJaya, Bekasi</span>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <header class="sticky top-0 z-40 glass-header border-b border-slate-800 shadow-xl transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- LOGO BRAND -->
+                <a href="#beranda" class="flex items-center space-x-3 group">
+                    <div class="w-16 h-16 flex items-center justify-center">
+    <img 
+        src="image/logo.jpeg" 
+        class="w-full h-full object-contain"
+    >
+</div>
+                    <div>
+                        <div class="text-white font-extrabold text-lg sm:text-xl tracking-tight">PRIMASINDO KORASERI </div>
+                        <div class="text-brand-lime text-xs font-semibold tracking-wider uppercase"></div>
+                    </div>
+                </a>
+
+                <!-- DESKTOP NAV LINKS -->
+                <nav class="hidden lg:flex items-center space-x-6 text-sm font-medium text-slate-200">
+                    <a href="#beranda" class="hover:text-brand-lime transition-colors">Beranda</a>
+                    <a href="#tentang" class="hover:text-brand-lime transition-colors">Tentang Kami</a>
+                    <a href="#produk" class="hover:text-brand-lime transition-colors">Produk</a>
+                    <a href="#layanan" class="hover:text-brand-lime transition-colors">Layanan</a>
+                    <a href="#portfolio" class="hover:text-brand-lime transition-colors">Portfolio</a>
+                    <a href="#klien" class="hover:text-brand-lime transition-colors">Klien</a>
+                   
+                    <a href="#kontak" class="hover:text-brand-lime transition-colors">Kontak</a>
+                </nav>
+
+                <!-- CTA HEADER BUTTON -->
+                <div class="hidden sm:flex items-center space-x-3">
+                    <a href="#pemesanan" onclick="openOrderModal()" class="bg-gradient-to-r from-brand-lime to-brand-green hover:brightness-110 text-white font-bold px-5 py-2.5 rounded-lg shadow-lg hover:shadow-brand-green/20 transition-all text-sm flex items-center">
+                        <i class="fa-solid fa-paper-plane mr-2"></i> Request Penawaran
+                    </a>
+                </div>
+
+                <!-- MOBILE MENU BUTTON -->
+                <div class="flex lg:hidden items-center space-x-2">
+                    <button onclick="toggleAdminModal(true)" class="p-2 text-slate-300 hover:text-white" title="Admin">
+                        <i class="fa-solid fa-user-shield text-lg"></i>
+                    </button>
+                    <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 focus:outline-none">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- MOBILE MENU OVERLAY -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
+            <a href="#beranda" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-lime font-medium border-b border-slate-800">Beranda</a>
+            <a href="#tentang" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-lime font-medium border-b border-slate-800">Tentang Kami</a>
+            <a href="#produk" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-lime font-medium border-b border-slate-800">Produk Karoseri</a>
+            <a href="#layanan" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-lime font-medium border-b border-slate-800">Fasilitas & Layanan</a>
+            <a href="#portfolio" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-lime font-medium border-b border-slate-800">Hasil Produksi</a>
+            <a href="#klien" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-lime font-medium border-b border-slate-800">Daftar Klien</a>
+            <a href="#tracking" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-lime font-medium border-b border-slate-800">Cek Status Pesanan</a>
+            <a href="#kontak" onclick="toggleMobileMenu()" class="block py-2 text-slate-200 hover:text-brand-lime font-medium border-b border-slate-800">Kontak Perusahaan</a>
+            <div class="pt-2">
+                <button onclick="toggleMobileMenu(); openOrderModal()" class="w-full bg-brand-green text-white font-bold py-3 rounded-lg text-center shadow-lg">
+                    <i class="fa-solid fa-file-signature mr-2"></i> Request Penawaran Sekarang
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="beranda" class="relative hero-gradient text-white py-20 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent opacity-90"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 bg-slate-900/80 backdrop-blur border border-brand-green/40 px-3.5 py-1.5 rounded-full text-xs sm:text-sm text-brand-lime font-medium">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>Produsen Karoseri Terdaftar & Terverifikasi</span>
+                    </div>
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                        Solusi Karoseri Profesional untuk <span class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">Berbagai Kebutuhan Kendaraan</span>
+                    </h1>
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        PT. Primasindo Raya Abadi menyediakan jasa pembuatan karoseri dan hydraulic custom dengan mengedepankan kualitas, pelayanan, teknologi, dan inovasi.
+                    </p>
+
+                    <!-- HERO CTAS -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+                        <button onclick="openOrderModal()" class="w-full sm:w-auto bg-gradient-to-r from-brand-lime to-brand-green hover:brightness-110 text-white font-extrabold px-8 py-4 rounded-xl shadow-xl hover:shadow-brand-lime/20 transition-all text-base flex items-center justify-center group">
+                            <span>Pesan Sekarang</span>
+                            <i class="fa-solid fa-arrow-right ml-3 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                        <a href="#produk" class="w-full sm:w-auto bg-slate-800/80 hover:bg-slate-800 text-slate-200 border border-slate-700 hover:border-slate-500 font-bold px-8 py-4 rounded-xl transition-all text-base text-center">
+                            Lihat Produk
+                        </a>
+                    </div>
+
+                    <!-- TRUST BADGES -->
+                    <div class="pt-8 grid grid-cols-3 gap-4 border-t border-slate-800/80 mt-8 text-center lg:text-left">
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-black text-white">100%</div>
+                            <div class="text-xs text-slate-400">Standar Legalitas Dishub</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-black text-white">14+</div>
+                            <div class="text-xs text-slate-400">Tipe Varian Karoseri</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-black text-white">Custom</div>
+                            <div class="text-xs text-slate-400">Sistem Hydraulic Presisi</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HERO IMAGE CARD / FEATURED CAROUSEL PREVIEW -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-800/80 bg-slate-900 group">
+                        <img id="hero-img" src="image/dam trek.jpg" alt="Karoseri PRA Dump Truck " class="w-full h-80 sm:h-96 object-cover transform group-hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/20 to-transparent"></div>
+                        <div class="absolute bottom-4 left-4 right-4 bg-navy-900/90 backdrop-blur p-4 rounded-xl border border-slate-700">
+                            <div class="flex justify-between items-center">
+                                <div>
+                                    <span class="text-[10px] uppercase font-bold text-brand-lime tracking-wider">Hasil Produksi Unggulan</span>
+                                    <h3 class="text-sm font-bold text-white">Dump Truck</h3>
+                                </div>
+                                <span class="bg-brand-green/20 text-brand-lime text-xs font-semibold px-2.5 py-1 rounded-full border border-brand-green/30">PRA Custom</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG KAMI & LEGALITAS -->
+    <section id="tentang" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-green font-bold uppercase text-xs tracking-widest bg-brand-green/10 px-3 py-1 rounded-full">Company Profile</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-3">Tentang PT. Primasindo Raya Abadi</h2>
+                <p class="text-slate-600 mt-3 text-base">Perusahaan penyedia Jasa Karoseri terdepan yang terpercaya di Indonesia dengan komitmen mutu tinggi dan legalitas lengkap.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch mb-16">
+                <!-- VISI MISI CARD -->
+                <div class="bg-slate-50 border border-slate-200 rounded-2xl p-8 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-6">
+                            <div class="w-12 h-12 bg-navy-900 text-brand-lime rounded-xl flex items-center justify-center text-xl font-bold shadow">
+                                <i class="fa-solid fa-eye"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-navy-900">Visi Perusahaan</h3>
+                                <p class="text-xs text-slate-500">PT. Primasindo Raya Abadi</p>
+                            </div>
+                        </div>
+                        <p class="text-slate-700 italic font-medium bg-white p-4 rounded-xl border-l-4 border-brand-green shadow-sm mb-8">
+                            "Menjadi Perusahaan yang terkemuka dan inovatif di bidang Jasa Karoseri di Indonesia."
+                        </p>
+
+                        <div class="flex items-center space-x-3 mb-4">
+                            <div class="w-10 h-10 bg-brand-green text-white rounded-lg flex items-center justify-center text-lg font-bold">
+                                <i class="fa-solid fa-bullseye"></i>
+                            </div>
+                            <h3 class="text-xl font-bold text-navy-900">Misi Utama</h3>
+                        </div>
+                        <ul class="space-y-3 text-sm text-slate-600">
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 flex-shrink-0"></i>
+                                <span>Memberikan pelayanan terbaik di bidang jasa karoseri.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 flex-shrink-0"></i>
+                                <span>Mengembangkan sumber daya manusia yang ahli di bidangnya.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 flex-shrink-0"></i>
+                                <span>Mengembangkan sistem manajemen, teknologi, dan inovasi di bidang jasa karoseri secara berkesinambungan.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fa-solid fa-circle-check text-brand-green mt-1 mr-3 flex-shrink-0"></i>
+                                <span>Memiliki kedisiplinan dan integritas yang tinggi.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- RUANG LINGKUP PEKERJAAN -->
+                <div class="bg-navy-900 text-white rounded-2xl p-8 flex flex-col justify-between shadow-xl relative overflow-hidden">
+                    <div class="relative z-10">
+                        <span class="text-brand-lime font-bold uppercase text-xs tracking-wider">Ruang Lingkup Pekerjaan</span>
+                        <h3 class="text-2xl font-bold mt-1 mb-6">Layanan Karoseri & Custom Engineering</h3>
+                        <p class="text-slate-300 text-sm mb-6 leading-relaxed">
+                            Kami menerima pembuatan karoseri kendaraan operasional komersial maupun pemerintahan dengan spesifikasi yang dapat disesuaikan kebutuhan lapangan:
+                        </p>
+                        
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="bg-navy-800/90 border border-slate-700/80 p-3.5 rounded-xl flex items-center space-x-3">
+                                <i class="fa-solid fa-truck-monster text-brand-lime text-lg"></i>
+                                <span class="text-xs font-semibold">Dump Truck</span>
+                            </div>
+                            <div class="bg-navy-800/90 border border-slate-700/80 p-3.5 rounded-xl flex items-center space-x-3">
+                                <i class="fa-solid fa-truck-pickup text-brand-lime text-lg"></i>
+                                <span class="text-xs font-semibold">Mini Dump Truck</span>
+                            </div>
+                            <div class="bg-navy-800/90 border border-slate-700/80 p-3.5 rounded-xl flex items-center space-x-3">
+                                <i class="fa-solid fa-box text-brand-lime text-lg"></i>
+                                <span class="text-xs font-semibold">Kontainer</span>
+                            </div>
+                            <div class="bg-navy-800/90 border border-slate-700/80 p-3.5 rounded-xl flex items-center space-x-3">
+                                <i class="fa-solid fa-recycle text-brand-lime text-lg"></i>
+                                <span class="text-xs font-semibold">Arm Roll Truck</span>
+                            </div>
+                            <div class="bg-navy-800/90 border border-slate-700/80 p-3.5 rounded-xl flex items-center space-x-3">
+                                <i class="fa-solid fa-faucet-drip text-brand-lime text-lg"></i>
+                                <span class="text-xs font-semibold">Tangki Khusus</span>
+                            </div>
+                            <div class="bg-navy-800/90 border border-slate-700/80 p-3.5 rounded-xl flex items-center space-x-3">
+                                <i class="fa-solid fa-gears text-brand-lime text-lg"></i>
+                                <span class="text-xs font-semibold">Hydraulic Custom</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8 border-t border-slate-800 mt-6 relative z-10 flex items-center justify-between">
+                        <span class="text-xs text-slate-400">Dikerjakan oleh teknisi ahli karoseri.</span>
+                        <a href="#pemesanan" onclick="openOrderModal()" class="text-xs text-brand-lime font-bold hover:underline flex items-center">
+                            Konsultasi Spesifikasi <i class="fa-solid fa-chevron-right ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION LEGALITAS RESMI -->
+            <div class="mt-12 bg-slate-50 border border-slate-200 rounded-2xl p-8">
+                <div class="flex flex-col md:flex-row md:items-center justify-between mb-8 pb-4 border-b border-slate-200 gap-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-navy-900">Legalitas & Sertifikasi Resmi</h3>
+                        <p class="text-sm text-slate-500">PT. Primasindo Raya Abadi beroperasi legal dan resmi terdaftar di instansi pemerintah.</p>
+                    </div>
+                    <span class="inline-flex items-center bg-emerald-100 text-emerald-800 font-bold text-xs px-3 py-1.5 rounded-full border border-emerald-300">
+                        <i class="fa-solid fa-certificate mr-1.5"></i> Perizinan Berusaha Terverifikasi
+                    </span>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="text-xs text-slate-400 font-medium">Nomor Induk Berusaha (NIB)</div>
+                        <div class="text-sm font-bold text-navy-900 mt-1">1229003402018</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="text-xs text-slate-400 font-medium">No. Registrasi DISHUB JABAR</div>
+                        <div class="text-sm font-bold text-navy-900 mt-1">43-KTK-21-IX/2023</div>
+                        <div class="text-[11px] text-slate-500">Reg Lama: 67-KTK-13-X/2025</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="text-xs text-slate-400 font-medium">NPWP Perusahaan</div>
+                        <div class="text-sm font-bold text-navy-900 mt-1">42.096.633.5-432.000</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="text-xs text-slate-400 font-medium">SK Kemenkumham RI (2021)</div>
+                        <div class="text-sm font-bold text-navy-900 mt-1">AHU-0027235.AH.01.01 Thn 2021</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="text-xs text-slate-400 font-medium">SK Kemenkumham RI (2022)</div>
+                        <div class="text-sm font-bold text-navy-900 mt-1">AHU-0092184.AH.01.02 Thn 2022</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                        <div class="text-xs text-slate-400 font-medium">Akta Notaris</div>
+                        <div class="text-xs font-semibold text-navy-900 mt-1">
+                            No. 6 Slamet Sumardi, SH., M.Kn (2021) <br>
+                            No. 6 Taufik, SH., M.Kn (2022)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KATALOG PRODUK -->
+    <section id="produk" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-brand-green font-bold uppercase text-xs tracking-widest bg-brand-green/10 px-3 py-1 rounded-full">Katalog Lengkap</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-2">Produk Karoseri & Custom Unit</h2>
+                    <p class="text-slate-600 mt-1 text-sm sm:text-base">Pilih unit sesuai kebutuhan operasional armada bisnis atau dinas Anda.</p>
+                </div>
+                <!-- SEARCH & FILTER -->
+                <div class="mt-4 md:mt-0 flex flex-col sm:flex-row items-center gap-3">
+                    <div class="relative w-full sm:w-64">
+                        <input type="text" id="catalog-search" onkeyup="filterCatalog()" placeholder="Cari nama produk..." class="w-full pl-9 pr-4 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green focus:border-brand-green outline-none">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3 top-2.5 text-slate-400 text-sm"></i>
+                    </div>
+                    <select id="catalog-category-filter" onchange="filterCatalog()" class="w-full sm:w-auto px-4 py-2 rounded-lg border border-slate-300 text-sm bg-white focus:ring-2 focus:ring-brand-green outline-none">
+                        <option value="ALL">Semua Kategori</option>
+                        <option value="DUMP">Dump & Material</option>
+                        <option value="TANGKI">Tangki & Cairan</option>
+                        <option value="SPECIAL">Kendaraan Khusus</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- PRODUCT GRID -->
+            <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                <!-- JavaScript will populate products dynamically from CATALOG_DATA -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FASILITAS WORKSHOP & PERALATAN -->
+    <section id="layanan" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-green font-bold uppercase text-xs tracking-widest bg-brand-green/10 px-3 py-1 rounded-full">Infrastruktur</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 mt-2">Fasilitas Workshop & Peralatan</h2>
+                <p class="text-slate-600 mt-2 text-sm sm:text-base">Didukung mesin manufaktur presisi modern untuk menjamin standar konstruksi karoseri terbaik.</p>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-4">
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl text-center hover:border-brand-green transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center mx-auto mb-3 text-lg font-bold">
+                         <img src="image/foklif.jpg">
+                    </div>
+                    <h4 class="font-bold text-navy-900 text-sm">Forklift</h4>
+                    <p class="text-[11px] text-slate-500 mt-1">Material Handling</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl text-center hover:border-brand-green transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center mx-auto mb-3 text-lg font-bold">
+                        <img src="image/mesinbending.jpg">
+                    </div>
+                    <h4 class="font-bold text-navy-900 text-sm">Mesin Bending</h4>
+                    <p class="text-[11px] text-slate-500 mt-1">Tekuk Plat Presisi</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl text-center hover:border-brand-green transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center mx-auto mb-3 text-lg font-bold">
+                        <img src="image/mesin sharing.jpg">
+                    </div>
+                    <h4 class="font-bold text-navy-900 text-sm">Mesin Shearing</h4>
+                    <p class="text-[11px] text-slate-500 mt-1">Potong Plat Baja</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl text-center hover:border-brand-green transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center mx-auto mb-3 text-lg font-bold">
+                       <img src="image/hoistcrane.jpg">
+                    </div>
+                    <h4 class="font-bold text-navy-900 text-sm">Hoist Crane</h4>
+                    <p class="text-[11px] text-slate-500 mt-1">Pengangkatan Berat</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl text-center hover:border-brand-green transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center mx-auto mb-3 text-lg font-bold">
+                        <img src="image/mesin bubut.jpg">
+                    </div>
+                    <h4 class="font-bold text-navy-900 text-sm">Mesin Bubut</h4>
+                    <p class="text-[11px] text-slate-500 mt-1">Pemesinan Komponen</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl text-center hover:border-brand-green transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center mx-auto mb-3 text-lg font-bold">
+                        <img src="image/mesinplasma.jpg">
+                    </div>
+                    <h4 class="font-bold text-navy-900 text-sm">Mesin Plasma</h4>
+                    <p class="text-[11px] text-slate-500 mt-1">Cutting Suhu Tinggi</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl text-center hover:border-brand-green transition-all shadow-sm">
+                    <div class="w-12 h-12 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center mx-auto mb-3 text-lg font-bold">
+                        <img src="image/mesincnc.jpg">
+                    </div>
+                    <h4 class="font-bold text-navy-900 text-sm">Mesin CNC</h4>
+                    <p class="text-[11px] text-slate-500 mt-1">Pemotongan Komputerisasi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO / HASIL PRODUKSI -->
+    <section id="portfolio" class="py-20 bg-navy-950 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-brand-lime font-bold uppercase text-xs tracking-widest bg-slate-800 px-3 py-1 rounded-full border border-slate-700">Portofolio Produksi</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-2">Hasil Pengerjaan Karoseri</h2>
+                    <p class="text-slate-400 mt-1 text-sm">Dokumentasi unit karoseri yang telah selesai dikerjakan di workshop PRA.</p>
+                </div>
+                <!-- PORTFOLIO CATEGORY TABS -->
+                <div class="mt-4 md:mt-0 flex flex-wrap gap-2" id="portfolio-tabs">
+                    <button onclick="filterPortfolio('ALL')" class="port-tab active px-3.5 py-1.5 rounded-lg text-xs font-bold bg-brand-green text-white">Semua</button>
+                    <button onclick="filterPortfolio('Dump Truck')" class="port-tab px-3.5 py-1.5 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700">Dump Truck</button>
+                    <button onclick="filterPortfolio('Tangki')" class="port-tab px-3.5 py-1.5 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700">Tangki</button>
+                    <button onclick="filterPortfolio('Kendaraan Khusus')" class="port-tab px-3.5 py-1.5 rounded-lg text-xs font-medium bg-slate-800 text-slate-300 hover:bg-slate-700">Kendaraan Khusus</button>
+                </div>
+            </div>
+
+            <!-- PORTFOLIO GALLERY GRID -->
+            <div id="portfolio-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Populated dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- DAFTAR KLIEN KAMI -->
+    <section id="klien" class="py-16 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <span class="text-slate-400 font-bold uppercase text-xs tracking-widest">Kepercayaan Mitra</span>
+                <h3 class="text-2xl font-black text-navy-900 mt-1">KLIEN KAMI</h3>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center font-black text-slate-700 text-sm sm:text-base hover:border-brand-green transition-all shadow-sm flex items-center justify-center">
+                    PT. LANGGENG KENCANA ASRI
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center font-black text-slate-700 text-sm sm:text-base hover:border-brand-green transition-all shadow-sm flex items-center justify-center">
+                    PT. BASUKIGRAHA FABRIKATAMA
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center font-black text-slate-700 text-sm sm:text-base hover:border-brand-green transition-all shadow-sm flex items-center justify-center">
+                    PT. SUKSES TUNGGAL SEJATI
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center font-black text-slate-700 text-sm sm:text-base hover:border-brand-green transition-all shadow-sm flex items-center justify-center">
+                    PT. BAGJA SUKSES BERSAMA
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center font-black text-slate-700 text-sm sm:text-base hover:border-brand-green transition-all shadow-sm flex items-center justify-center">
+                    PT. TRIBEKA BINANUSA JAYA
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center font-black text-slate-700 text-sm sm:text-base hover:border-brand-green transition-all shadow-sm flex items-center justify-center">
+                    PT. PJP TSENOPATI
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center font-black text-slate-700 text-sm sm:text-base hover:border-brand-green transition-all shadow-sm flex items-center justify-center">
+                    PT. ASKIMAH CIWI MANDIRI
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center font-black text-slate-700 text-sm sm:text-base hover:border-brand-green transition-all shadow-sm flex items-center justify-center">
+                    PT. SKETSA ALIANSI KHARISMA ABADI
+                </div>
+                <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-center font-black text-slate-700 text-sm sm:text-base hover:border-brand-green transition-all shadow-sm flex items-center justify-center">
+                    CV. KARYA BAJA ESTETIKA
+                </div>
+            </div>
+        </div>
+    
+
+    <!-- KONTAK PERUSAHAAN & MAPS -->
+    <section id="kontak" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                <div class="lg:col-span-5 space-y-8">
+                    <div>
+                        <span class="text-brand-green font-bold uppercase text-xs tracking-widest bg-brand-green/10 px-3 py-1 rounded-full">Hubungi Kami</span>
+                        <h2 class="text-3xl font-extrabold text-navy-900 mt-2">PT. PRIMASINDO RAYA ABADI</h2>
+                        <p class="text-slate-600 text-sm mt-2">Tim marketing dan teknis kami siap melayani pertanyaan serta diskusi proyek karoseri Anda.</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="w-10 h-10 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center flex-shrink-0 text-lg">
+                                <i class="fa-solid fa-building"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Alamat Kantor (Office)</h4>
+                                <p class="text-xs text-slate-600 mt-0.5">Ruko Dukuh Zambrud GF No. 67, Padurenan, MustikaJaya, Kota Bekasi, Jawa Barat 17156</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="w-10 h-10 bg-brand-green text-white rounded-lg flex items-center justify-center flex-shrink-0 text-lg">
+                                <i class="fa-solid fa-industry"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Alamat Workshop / Fabrikasi</h4>
+                                <p class="text-xs text-slate-600 mt-0.5">Jl. WR. Supratman, No 15A Cimuning MustikaJaya, Kota Bekasi, Jawa Barat</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="w-10 h-10 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center flex-shrink-0 text-lg">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Telepon & WhatsApp</h4>
+                                <p class="text-xs text-slate-600 mt-0.5">Kantor: 082374077783</p>
+                                <p class="text-xs text-slate-600">WhatsApp Sales: <span id="display-wa-num" class="font-bold">082374077783</span></p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
+                            <div class="w-10 h-10 bg-navy-900 text-brand-lime rounded-lg flex items-center justify-center flex-shrink-0 text-lg">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Email Resmi</h4>
+                                <p class="text-xs text-slate-600 mt-0.5">primasindoraya@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-3">
+                        <button onclick="openWhatsAppDirect()" class="flex-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 rounded-xl text-center text-xs flex items-center justify-center shadow-lg">
+                            <i class="fa-brands fa-whatsapp text-lg mr-2"></i> Chat WhatsApp
+                        </button>
+                        <a href="mailto:primasindoraya@gmail.com" class="flex-1 bg-navy-900 hover:bg-navy-800 text-white font-bold py-3 rounded-xl text-center text-xs flex items-center justify-center shadow-lg">
+                            <i class="fa-solid fa-paper-plane mr-2"></i> Kirim Email
+                        </a>
+                    </div>
+                </div>
+
+                <!-- GOOGLE MAPS EMBED & DIRECT MESSAGE -->
+                <div class="lg:col-span-7 bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden p-2 flex flex-col">
+                    <div class="w-full h-80 rounded-xl overflow-hidden shadow-inner mb-4">
+                        <iframe title="Lokasi PRA Karoseri" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.733596704996!2d107.0321283!3d-6.3000523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6992383c84277b%3A0xb35e1bc3a8e9e73f!2sMustikajaya%20Bekasi!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" class="w-full h-full border-0" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="p-4 bg-white rounded-xl border border-slate-200">
+                        <h4 class="font-bold text-navy-900 text-sm mb-2"><i class="fa-solid fa-circle-info text-brand-green mr-2"></i>Petunjuk Arah Workshop</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Workshop PT. Primasindo Raya Abadi berlokasi strategis di kawasan industri MustikaJaya Bekasi, mudah diakses kendaraan trailer dan truk chassis dari Tol Jakarta-Cikampek.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- REQUEST QUOTATION MULTI-STEP MODAL -->
+    <div id="order-modal" class="fixed inset-0 z-50 hidden bg-navy-950/80 backdrop-blur-sm overflow-y-auto custom-scrollbar p-2 sm:p-4">
+        <div class="min-h-screen flex items-center justify-center">
+            <div class="bg-white w-full max-w-3xl rounded-3xl shadow-2xl overflow-hidden border border-slate-200 my-8">
+                <!-- MODAL HEADER -->
+                <div class="bg-navy-900 text-white p-6 flex justify-between items-center relative">
+                    <div>
+                        <span class="text-brand-lime font-bold text-xs uppercase tracking-wider">Form Resmi Penawaran</span>
+                        <h3 class="text-xl font-extrabold">Request Pemesanan / Quotation</h3>
+                    </div>
+                    <button onclick="closeOrderModal()" class="w-9 h-9 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-full flex items-center justify-center transition-colors">
+                        <i class="fa-solid fa-xmark text-lg"></i>
+                    </button>
+                </div>
+
+                <!-- STEP PROGRESS BAR -->
+                <div class="bg-slate-100 border-b border-slate-200 px-6 py-4">
+                    <div class="flex justify-between items-center text-xs font-bold text-slate-500 mb-2">
+                        <span id="step-label-1" class="text-brand-green">1. Pilih Produk</span>
+                        <span id="step-label-2">2. Data Pemesan</span>
+                        <span id="step-label-3">3. Spesifikasi</span>
+                        <span id="step-label-4">4. Lampiran</span>
+                        <span id="step-label-5">5. Review</span>
+                    </div>
+                    <div class="w-full bg-slate-200 rounded-full h-2 overflow-hidden">
+                        <div id="step-progress-bar" class="bg-brand-green h-full w-1/5 transition-all duration-300"></div>
+                    </div>
+                </div>
+
+                <!-- MODAL BODY STEP FORM -->
+                <div class="p-6 sm:p-8">
+                    <form id="quotation-form" onsubmit="event.preventDefault();">
+                        
+                        <!-- STEP 1: PILIH PRODUK -->
+                        <div id="form-step-1" class="step-content space-y-4">
+                            <h4 class="font-bold text-navy-900 text-base mb-3">Langkah 1: Pilih Jenis Produk Karoseri</h4>
+                            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Dump Truck" class="sr-only" checked onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-truck-monster text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Dump Truck</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Mini Dump Truck" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-truck-pickup text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Mini Dump Truck</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Kontainer" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-box text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Kontainer</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Skylift" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-elevator text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Skylift</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Mixer" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-truck-droplet text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Mixer</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Tangki" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-faucet-drip text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Tangki</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Ambulance" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-truck-medical text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Ambulance</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Lube Car" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-oil-can text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Lube Car</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Tangki BBM" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-gas-pump text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Tangki BBM</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Tangki Vacuum" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-wind text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Tangki Vacuum</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Tangki Water Sprayer" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-shower text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Tangki Water Sprayer</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Tangki Pemadam Kebakaran" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-fire-extinguisher text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Tangki Pemadam</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Armroll" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-recycle text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Armroll</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Tangki Air" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-glass-water text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Tangki Air</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Hydraulic Custom" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-gears text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Hydraulic Custom</span>
+                                </label>
+                                <label class="product-radio-card cursor-pointer border-2 border-slate-200 hover:border-brand-green p-3 rounded-xl flex flex-col items-center text-center transition-all">
+                                    <input type="radio" name="selected_product" value="Lainnya" class="sr-only" onchange="updateStep1Selection(this)">
+                                    <i class="fa-solid fa-ellipsis text-2xl text-navy-900 mb-1"></i>
+                                    <span class="text-xs font-bold text-slate-800">Lainnya</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- STEP 2: DATA PEMESAN & KENDARAAN -->
+                        <div id="form-step-2" class="step-content space-y-4 hidden">
+                            <h4 class="font-bold text-navy-900 text-base mb-3">Langkah 2: Informasi Pemesan & Chassis Kendaraan</h4>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Nama Pemesan *</label>
+                                    <input type="text" id="cust-name" required placeholder="Contoh: Bpk. Hendra" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Nama Perusahaan / Instansi *</label>
+                                    <input type="text" id="cust-company" required placeholder="Contoh: PT. Transport Express" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Nomor WhatsApp *</label>
+                                    <input type="tel" id="cust-wa" required placeholder="08123456789" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Email Pemesan</label>
+                                    <input type="email" id="cust-email" placeholder="nama@perusahaan.com" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Jenis Kendaraan Chassis *</label>
+                                    <input type="text" id="veh-type" placeholder="Contoh: Light Truck 6 Roda" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Merek & Tipe Kendaraan *</label>
+                                    <input type="text" id="veh-brand" placeholder="Contoh: Hino Dutro 130 HD / Mitsubishi Canter" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Tahun Kendaraan</label>
+                                    <input type="text" id="veh-year" placeholder="Contoh: 2024 / Baru" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Jumlah Unit *</label>
+                                    <input type="number" id="veh-qty" value="1" min="1" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Lokasi Kendaraan Saat Ini</label>
+                                    <input type="text" id="veh-location" placeholder="Contoh: Bekasi / Dealer Hino Jakarta" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Kebutuhan / Penggunaan</label>
+                                    <input type="text" id="veh-usage" placeholder="Contoh: Pengangkutan tambang / DLH" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- STEP 3: SPESIFIKASI PESANAN -->
+                        <div id="form-step-3" class="step-content space-y-4 hidden">
+                            <h4 class="font-bold text-navy-900 text-base mb-1">Langkah 3: Spesifikasi Teknis Pesanan</h4>
+                            
+                            <!-- Checkbox Unknown Specs -->
+                            <div class="bg-amber-50 border border-amber-200 p-4 rounded-xl flex items-start space-x-3">
+                                <input type="checkbox" id="spec-unknown" onchange="toggleSpecUnknown(this)" class="mt-1 rounded text-brand-green focus:ring-brand-green">
+                                <div>
+                                    <label for="spec-unknown" class="text-xs font-bold text-amber-900 cursor-pointer">Saya Belum Mengetahui Spesifikasi Teknis</label>
+                                    <p id="spec-unknown-msg" class="text-xs text-amber-700 mt-0.5 hidden">
+                                        "Tim PT. Primasindo Raya Abadi akan membantu menentukan spesifikasi yang sesuai dengan kebutuhan Anda."
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div id="spec-fields-wrapper" class="space-y-4">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Deskripsi Kebutuhan Karoseri</label>
+                                    <textarea id="spec-desc" rows="2" placeholder="Jelaskan kebutuhan spesifik karoseri..." class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none"></textarea>
+                                </div>
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Ukuran / Dimensi yang Diinginkan</label>
+                                        <input type="text" id="spec-dim" placeholder="Panjang x Lebar x Tinggi (mm)" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Material Utama yang Diinginkan</label>
+                                        <input type="text" id="spec-material" placeholder="Contoh: Plat SPHC 4mm / Stainless" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Warna Finis Cat</label>
+                                        <input type="text" id="spec-color" placeholder="Contoh: Hijau DLH / Kuning / Custom" class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold text-slate-700 mb-1">Kebutuhan Custom Hydraulic</label>
+                                        <div class="flex items-center space-x-4 mt-2">
+                                            <label class="inline-flex items-center text-xs font-medium text-slate-700">
+                                                <input type="radio" name="hyd_req" value="Ya" class="text-brand-green"> <span class="ml-1.5">Memerlukan Hydraulic Custom</span>
+                                            </label>
+                                            <label class="inline-flex items-center text-xs font-medium text-slate-700">
+                                                <input type="radio" name="hyd_req" value="Tidak" checked class="text-brand-green"> <span class="ml-1.5">Standar / Tidak</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Catatan Tambahan</label>
+                                    <textarea id="spec-notes" rows="2" placeholder="Catatan khusus, lokasi pengantaran, dll..." class="w-full px-3 py-2 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-brand-green outline-none"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- STEP 4: UPLOAD DOKUMEN / REFERENSI -->
+                        <div id="form-step-4" class="step-content space-y-4 hidden">
+                            <h4 class="font-bold text-navy-900 text-base mb-1">Langkah 4: Upload Referensi (Opsional)</h4>
+                            <p class="text-xs text-slate-500">Anda dapat melampirkan foto kendaraan, gambar desain, atau contoh referensi karoseri.</p>
+
+                            <div class="border-2 border-dashed border-slate-300 hover:border-brand-green rounded-2xl p-6 text-center bg-slate-50 transition-colors">
+                                <i class="fa-solid fa-cloud-arrow-up text-3xl text-slate-400 mb-2"></i>
+                                <div class="text-xs font-bold text-slate-700">Pilih berkas foto / dokumen</div>
+                                <p class="text-[11px] text-slate-500 mt-0.5">Format JPG, PNG, PDF (Opsional)</p>
+                                <input type="file" id="doc-upload" onchange="handleFileSelect(this)" class="hidden">
+                                <button type="button" onclick="document.getElementById('doc-upload').click()" class="mt-3 bg-white border border-slate-300 hover:bg-slate-100 text-slate-700 font-bold px-4 py-1.5 rounded-lg text-xs shadow-sm">
+                                    Browse Berkas
+                                </button>
+                                <div id="file-name-preview" class="text-xs font-bold text-brand-green mt-2 hidden"></div>
+                            </div>
+                        </div>
+
+                        <!-- STEP 5: ESTIMASI & REVIEW -->
+                        <div id="form-step-5" class="step-content space-y-4 hidden">
+                            <h4 class="font-bold text-navy-900 text-base mb-1">Langkah 5: Ringkasan & Konfirmasi Request</h4>
+
+                            <div class="bg-blue-50 border border-blue-200 p-4 rounded-xl text-xs text-blue-900 flex items-start space-x-2">
+                                <i class="fa-solid fa-circle-info text-blue-600 text-base mt-0.5"></i>
+                                <span>Estimasi harga resmi akan dikonfirmasi oleh tim <strong>PT. Primasindo Raya Abadi</strong> berdasarkan spesifikasi pesanan Anda.</span>
+                            </div>
+
+                            <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl space-y-2 text-xs">
+                                <div class="flex justify-between border-b pb-1.5">
+                                    <span class="text-slate-500">Produk Dipilih:</span>
+                                    <span id="review-product" class="font-bold text-navy-900">Dump Truck</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-1.5">
+                                    <span class="text-slate-500">Pemesan & Perusahaan:</span>
+                                    <span id="review-cust" class="font-bold text-navy-900">-</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-1.5">
+                                    <span class="text-slate-500">Chassis & Jumlah:</span>
+                                    <span id="review-veh" class="font-bold text-navy-900">-</span>
+                                </div>
+                                <div class="flex justify-between border-b pb-1.5">
+                                    <span class="text-slate-500">Spesifikasi:</span>
+                                    <span id="review-spec" class="font-bold text-navy-900 text-right">-</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-slate-500">Dokumen Lampiran:</span>
+                                    <span id="review-doc" class="font-bold text-navy-900">Tidak ada</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- MODAL FOOTER BUTTONS -->
+                        <div class="flex justify-between items-center pt-6 border-t border-slate-200 mt-6">
+                            <button type="button" id="prev-step-btn" onclick="changeFormStep(-1)" class="bg-slate-200 hover:bg-slate-300 text-slate-700 font-bold px-5 py-2.5 rounded-xl text-xs transition-colors hidden">
+                                <i class="fa-solid fa-chevron-left mr-1"></i> Kembali
+                            </button>
+                            <button type="button" id="next-step-btn" onclick="changeFormStep(1)" class="ml-auto bg-brand-green hover:bg-brand-lime text-white font-bold px-6 py-2.5 rounded-xl text-xs shadow-md transition-colors">
+                                Lanjut <i class="fa-solid fa-chevron-right ml-1"></i>
+                            </button>
+                            <button type="button" id="submit-req-btn" onclick="submitFinalQuotation()" class="ml-auto bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold px-6 py-2.5 rounded-xl text-xs shadow-lg transition-all hidden">
+                                <i class="fa-solid fa-paper-plane mr-1.5"></i> Kirim Request Penawaran
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- SUCCESS CONFIRMATION OVERLAY (STEP 6) -->
+                    <div id="form-success-overlay" class="hidden text-center py-8 space-y-4">
+                        <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto text-3xl">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+                        <h3 class="text-2xl font-black text-navy-900">Request Anda Berhasil Dibuat!</h3>
+                        <p class="text-xs text-slate-600 max-w-md mx-auto">
+                            Nomor Request: <span id="created-req-id" class="font-mono font-bold text-brand-green text-sm bg-slate-100 px-2 py-1 rounded">PRA-2026-XXXX</span>
+                        </p>
+                        <p class="text-xs text-slate-500">
+                            Silakan klik tombol di bawah untuk langsung mengirimkan detail ke tim WhatsApp Sales PT. Primasindo Raya Abadi.
+                        </p>
+                        <div class="pt-2 flex flex-col sm:flex-row justify-center gap-3">
+                            <button onclick="sendToWhatsApp()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold px-6 py-3 rounded-xl text-xs shadow-lg flex items-center justify-center">
+                                <i class="fa-brands fa-whatsapp text-lg mr-2"></i> Kirim Detail ke WhatsApp
+                            </button>
+                            <button onclick="closeOrderModal()" class="bg-slate-200 hover:bg-slate-300 text-slate-800 font-bold px-6 py-3 rounded-xl text-xs">
+                                Tutup
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCT DETAIL MODAL -->
+    <div id="product-modal" class="fixed inset-0 z-50 hidden bg-navy-950/80 backdrop-blur-sm overflow-y-auto p-4 flex items-center justify-center">
+        <div class="bg-white w-full max-w-2xl rounded-3xl shadow-2xl overflow-hidden border border-slate-200 relative">
+            <button onclick="closeProductModal()" class="absolute top-4 right-4 z-10 w-8 h-8 bg-slate-900/80 hover:bg-slate-900 text-white rounded-full flex items-center justify-center">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div id="product-modal-body">
+                <!-- Populated dynamically via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ADMIN DASHBOARD MODAL -->
+    <div id="admin-modal" class="fixed inset-0 z-50 hidden bg-navy-950/90 backdrop-blur-md overflow-y-auto p-2 sm:p-6">
+        <div class="max-w-7xl mx-auto bg-slate-900 text-slate-100 rounded-3xl shadow-2xl border border-slate-800 overflow-hidden min-h-[85vh] flex flex-col">
+            <!-- ADMIN HEADER -->
+            <div class="bg-navy-950 px-6 py-4 border-b border-slate-800 flex justify-between items-center">
+                <div class="flex items-center space-x-3">
+                    <span class="bg-brand-green/20 text-brand-lime p-2 rounded-lg text-lg"><i class="fa-solid fa-user-gear"></i></span>
+                    <div>
+                        <h3 class="text-base font-bold text-white">Dashboard Admin PT. Primasindo Raya Abadi</h3>
+                        <p class="text-xs text-slate-400">Manajemen Pemesanan & Katalog Karoseri</p>
+                    </div>
+                </div>
+                <button onclick="toggleAdminModal(false)" class="text-slate-400 hover:text-white px-3 py-1 rounded bg-slate-800 text-xs">
+                    <i class="fa-solid fa-xmark mr-1"></i> Keluar Dashboard
+                </button>
+            </div>
+
+            <!-- ADMIN TABS & CONTENT -->
+            <div class="p-6 flex-1 flex flex-col space-y-6">
+                <!-- STATS CARDS -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+                    <div class="bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                        <div class="text-[10px] text-slate-400 uppercase font-bold">Total Request</div>
+                        <div id="stat-total" class="text-xl font-black text-white mt-1">0</div>
+                    </div>
+                    <div class="bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                        <div class="text-[10px] text-emerald-400 uppercase font-bold">Request Baru</div>
+                        <div id="stat-new" class="text-xl font-black text-emerald-400 mt-1">0</div>
+                    </div>
+                    <div class="bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                        <div class="text-[10px] text-amber-400 uppercase font-bold">Sedang Diproses</div>
+                        <div id="stat-process" class="text-xl font-black text-amber-400 mt-1">0</div>
+                    </div>
+                    <div class="bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                        <div class="text-[10px] text-blue-400 uppercase font-bold">Penawaran</div>
+                        <div id="stat-quotation" class="text-xl font-black text-blue-400 mt-1">0</div>
+                    </div>
+                    <div class="bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                        <div class="text-[10px] text-purple-400 uppercase font-bold">Pesanan Aktif</div>
+                        <div id="stat-active" class="text-xl font-black text-purple-400 mt-1">0</div>
+                    </div>
+                    <div class="bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                        <div class="text-[10px] text-brand-lime uppercase font-bold">Selesai</div>
+                        <div id="stat-completed" class="text-xl font-black text-brand-lime mt-1">0</div>
+                    </div>
+                </div>
+
+                <!-- ADMIN CONTROL SECTION SWITCH -->
+                <div class="flex border-b border-slate-800 space-x-4 text-xs font-bold">
+                    <button onclick="switchAdminTab('requests')" id="admin-tab-requests" class="pb-2 text-brand-lime border-b-2 border-brand-lime">Daftar Request Pesanan</button>
+                    <button onclick="switchAdminTab('settings')" id="admin-tab-settings" class="pb-2 text-slate-400 hover:text-slate-200">Pengaturan WA & Sistem</button>
+                </div>
+
+                <!-- TAB: REQUESTS TABLE -->
+                <div id="admin-sec-requests" class="flex-1 overflow-x-auto custom-scrollbar">
+                    <table class="w-full text-left text-xs text-slate-300">
+                        <thead class="bg-slate-950 text-slate-400 uppercase font-bold">
+                            <tr>
+                                <th class="p-3">ID Request</th>
+                                <th class="p-3">Tanggal</th>
+                                <th class="p-3">Pemesan</th>
+                                <th class="p-3">Produk</th>
+                                <th class="p-3">Kendaraan</th>
+                                <th class="p-3">Status</th>
+                                <th class="p-3">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-request-tbody" class="divide-y divide-slate-800">
+                            <!-- Populated dynamically via JS -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- TAB: SETTINGS -->
+                <div id="admin-sec-settings" class="hidden space-y-4 max-w-xl">
+                    <div class="bg-slate-800 p-4 rounded-xl border border-slate-700 space-y-3">
+                        <h4 class="font-bold text-white text-sm">Nomor WhatsApp Penerima Request</h4>
+                        <p class="text-xs text-slate-400">Nomor ini akan digunakan sebagai tujuan otomatis tombol WhatsApp pelanggan.</p>
+                        <input type="text" id="admin-wa-input" class="w-full px-3 py-2 bg-slate-900 border border-slate-700 rounded-lg text-sm text-white focus:outline-none focus:border-brand-lime">
+                        <button onclick="saveAdminSettings()" class="bg-brand-green hover:bg-brand-lime text-white font-bold px-4 py-2 rounded-lg text-xs">
+                            Simpan Perubahan
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy-950 text-slate-400 pt-16 pb-8 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- BRAND INFO -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded bg-white p-1 flex items-center justify-center font-black text-navy-900 text-xs">
+                            PRA
+                        </div>
+                        <div>
+                            <div class="text-white font-bold text-sm">PT. PRIMASINDO RAYA ABADI</div>
+                            <div class="text-brand-lime text-[10px] font-bold uppercase">PRA KAROSERI</div>
+                        </div>
+                    </div>
+                    <p class="text-xs leading-relaxed text-slate-400">
+                        Solusi jasa karoseri dan hydraulic custom untuk berbagai kebutuhan kendaraan operasional bisnis dan dinas di Indonesia.
+                    </p>
+                    <div class="text-[11px] text-slate-500">
+                        NIB: 1229003402018 <br>
+                        Reg DISHUB: 43-KTK-21-IX/2023
+                    </div>
+                </div>
+
+                <!-- QUICK LINKS -->
+                <div>
+                    <h4 class="text-white font-bold text-sm mb-4">Navigasi Cepat</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#beranda" class="hover:text-brand-lime">Beranda</a></li>
+                        <li><a href="#tentang" class="hover:text-brand-lime">Tentang Kami</a></li>
+                        <li><a href="#produk" class="hover:text-brand-lime">Katalog Produk</a></li>
+                        <li><a href="#portfolio" class="hover:text-brand-lime">Hasil Produksi</a></li>
+                        <li><a href="#tracking" class="hover:text-brand-lime">Cek Status Request</a></li>
+                        <li><a href="#kontak" class="hover:text-brand-lime">Kontak & Workshop</a></li>
+                    </ul>
+                </div>
+
+                <!-- ALAMAT LOKASI -->
+                <div>
+                    <h4 class="text-white font-bold text-sm mb-4">Kantor & Workshop</h4>
+                    <div class="space-y-3 text-xs">
+                        <p><strong>Office:</strong> Ruko Dukuh Zambrud GF No. 67, MustikaJaya, Bekasi</p>
+                        <p><strong>Workshop:</strong> Jl. Kedaung 254 Cimuning, MustikaJaya, Bekasi</p>
+                        <p><strong>Telepon:</strong> 082374077783</p>
+                        <p><strong>Email:</strong> primasindoraya@gmail.com</p>
+                    </div>
+                </div>
+
+                <!-- JAM OPERASIONAL & CTA -->
+                <div>
+                    <h4 class="text-white font-bold text-sm mb-4">Jam Operasional</h4>
+                    <p class="text-xs text-slate-400 mb-4">
+                        Senin - Sabtu: 08:00 - 17:00 WIB<br>
+                        Minggu & Hari Libur: Layanan WhatsApp Aktif
+                    </p>
+                    <button onclick="openOrderModal()" class="w-full bg-brand-green hover:bg-brand-lime text-white font-bold py-2.5 rounded-xl text-xs transition-colors shadow">
+                        <i class="fa-solid fa-paper-plane mr-1"></i> Request Penawaran
+                    </button>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-slate-800/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div>© 2026 PT. Primasindo Raya Abadi (PRA KAROSERI). All Rights Reserved.</div>
+                <div class="flex space-x-4">
+                    <a href="#beranda" class="hover:underline">Privasi</a>
+                    <a href="#beranda" class="hover:underline">Syarat & Ketentuan</a>
+                    <a href="#kontak" class="hover:underline">Bantuan</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MOBILE STICKY CTA BAR -->
+    <div class="fixed bottom-0 inset-x-0 z-30 bg-navy-950/95 backdrop-blur border-t border-slate-800 p-2 sm:hidden flex items-center justify-between gap-2">
+        <a href="#tracking" class="flex-1 bg-slate-800 text-slate-200 text-[11px] font-bold py-2.5 rounded-lg text-center flex items-center justify-center">
+            <i class="fa-solid fa-magnifying-glass mr-1 text-brand-lime"></i> Cek Status
+        </a>
+        <button onclick="openOrderModal()" class="flex-1 bg-gradient-to-r from-brand-lime to-brand-green text-white text-[11px] font-extrabold py-2.5 rounded-lg text-center flex items-center justify-center shadow-lg">
+            <i class="fa-solid fa-file-signature mr-1"></i> Request Penawaran
+        </button>
+        <button onclick="openWhatsAppDirect()" class="w-10 h-10 bg-emerald-600 text-white rounded-lg flex items-center justify-center text-lg">
+            <i class="fa-brands fa-whatsapp"></i>
+        </button>
+    </div>
+
+    <script>
+        /* APP STATE & DATA STORES */
+        let companyConfig = {
+            waNumber: '6282374077783',
+            companyName: 'PT. PRIMASINDO RAYA ABADI'
+        };
+
+        // 14 Products required
+        const CATALOG_DATA = [
+            { id: 'p1', name: 'Dump Truck', cat: 'DUMP', desc: 'Konstruksi dump body tugas berat untuk pengangkutan material tambang, tanah, dan batu.', img: 'image/dump truck 2.jpg' },
+            { id: 'p2', name: 'Mini Dump Truck', cat: 'DUMP', desc: 'Dump body skala ringkas presisi untuk area jalan sempit dan proyek konstruksi menengah.', img: 'image/mini dump truck.jpg' },
+            { id: 'p3', name: 'Kontainer', cat: 'SPECIAL', desc: 'Bak kontainer kargo serbaguna dengan rangka baja kokoh & perlindungan cuaca.', img: 'image/kontainer.jpg' },
+            { id: 'p4', name: 'Skylift', cat: 'SPECIAL', desc: 'Unit tangga/keranjang hydrolic bertingkat untuk perbaikan PJU dan pekerjaan ketinggian.', img: 'image/skylift.jpg' },
+            { id: 'p5', name: 'Mixer', cat: 'SPECIAL', desc: 'Tabung adukan semen molen bergerak untuk armada pengecoran konstruksi.', img: 'image/mixer.jpg.' },
+            { id: 'p6', name: 'Tangki Siram (Motor Viar)', cat: 'TANGKI', desc: 'Tangki siram portabel yang dipasang pada armada roda tiga Viar untuk taman kota.', img: 'image/mixer mini.jpg' },
+            { id: 'p7', name: 'Ambulance / Mobil Pelayanan', cat: 'SPECIAL', desc: 'Karoseri interior medis emergency/klinik keliling standar dinas kesehatan.', img:'image/sample ambulance.jpg' },
+            { id: 'p8', name: 'Lube Car', cat: 'SPECIAL', desc: 'Kendaraan khusus servis pelumasan & perawatan armada lapangan di area tambang.', img: 'image/lube.jpg' },
+            { id: 'p9', name: 'Tangki BBM', cat: 'TANGKI', desc: 'Tangki khusus bahan bakar minyak (Solar/Pertamax) dengan keamanan kompartemen standar.', img: 'image/water sprayer.jpg' },
+            { id: 'p10', name: 'Tangki Vacum', cat: 'TANGKI', desc: 'Tangki penyedot limbah cairan/septic dengan sistem pompa vacum bertekanan.', img: 'image/mobil silver.jpg' },
+            { id: 'p11', name: 'Tangki Water Sprayer', cat: 'TANGKI', desc: 'Tangki semprot air penekan debu area proyek konstruksi & jalan raya.', img: 'image/tanki putih.jpg' },
+            { id: 'p12', name: 'Tangki Pemadam Kebakaran', cat: 'TANGKI', desc: 'Unit tangki dan pompa siram tekanan tinggi penanggulangan pemadam kebakaran.', img: 'image/mobil tanki merah pemadam kebakaran.jpg' },
+            { id: 'p13', name: 'Armroll', cat: 'DUMP', desc: 'Sistem pengangkat & pengangkut kontainer bak sampah hidrolik otomatis.', img: 'image/mobil armoli.jpg' },
+            { id: 'p14', name: 'Tangki Air', cat: 'TANGKI', desc: 'Tangki penampung air bersih/bersih konsumsi dengan bahan pelapis aman.', img: 'image/tanki marinir.jpg' }
+        ];
+
+        const PORTFOLIO_DATA = [
+            { title: 'Unit Dump Truck ', cat: 'Dump Truck', img: 'image/dump truck 2.jpg' },
+            { title: 'Skylift', cat: 'Kendaraan Khusus', img: 'image/skylift.jpg' },
+            { title: 'Mixer', cat: 'Mixer', img: 'image/mixer.jpg' },
+            { title: 'Armroll Truck DLH Karoseri', cat: 'Dump Truck', img: 'image/bak truck.jpg' },
+            { title: 'Tangki Siram Viar Roda 3', cat: 'Tangki', img: 'image/mixer mini.jpg' },
+            { title: 'Ambulance ', cat: 'Kendaraan Khusus', img: 'image/sample ambulance.jpg' }
+        ];
+
+        // Seed initial requests
+        let sampleRequests = [
+            {
+                id: 'PRA-202609-1001',
+                date: '2026-09-10',
+                product: 'Dump Truck',
+                name: 'Bpk. Hendra',
+                company: 'PT. Langgeng Kencanaasri',
+                wa: '081298765432',
+                email: 'hendra@langgeng.co.id',
+                chassis: 'Hino Dutro 130 HD (6 Unit)',
+                spec: 'Plat SPHC 4mm, Dump Custom, Warna Hijau',
+                notes: 'Mohon penawaran harga secepatnya.',
+                status: 'Penawaran dikirim'
+            },
+            {
+                id: 'PRA-202609-1002',
+                date: '2026-09-11',
+                product: 'Tangki Pemadam Kebakaran',
+                name: 'Ibu Ratna',
+                company: 'PT. Basukigrahafabrikata',
+                wa: '085711223344',
+                email: 'ratna@basukigraha.com',
+                chassis: 'Isuzu ELF (2 Unit)',
+                spec: 'Tangki 4000L, Pompa Tekanan Tinggi',
+                notes: 'Pengiriman ke Bekasi',
+                status: 'Request diterima'
+            }
+        ];
+
+        let currentStep = 1;
+        let lastCreatedReq = null;
+
+        window.addEventListener('DOMContentLoaded', () => {
+            renderCatalog();
+            renderPortfolio();
+            loadStoredRequests();
+            updateAdminStats();
+            document.getElementById('display-wa-num').innerText = companyConfig.waNumber;
+            document.getElementById('admin-wa-input').value = companyConfig.waNumber;
+        });
+
+        /* RENDER CATALOG */
+        function renderCatalog(items = CATALOG_DATA) {
+            const grid = document.getElementById('product-grid');
+            grid.innerHTML = items.map(p => `
+                <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col group">
+                    <div class="relative h-48 bg-slate-100 overflow-hidden">
+                        <img src="${p.img}" alt="${p.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <span class="absolute top-3 left-3 bg-navy-900/80 backdrop-blur text-brand-lime text-[10px] font-bold px-2.5 py-1 rounded-full border border-slate-700">
+                            PRA Karoseri
+                        </span>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="text-base font-bold text-navy-900 group-hover:text-brand-green transition-colors">${p.name}</h3>
+                            <p class="text-xs text-slate-500 mt-1 line-clamp-2">${p.desc}</p>
+                        </div>
+                        <div class="space-y-2 pt-2 border-t border-slate-100">
+                            <button onclick="openOrderForProduct('${p.name}')" class="w-full bg-gradient-to-r from-brand-lime to-brand-green hover:brightness-110 text-white font-bold py-2 rounded-xl text-xs transition-colors shadow flex items-center justify-center">
+                                <i class="fa-solid fa-paper-plane mr-1.5"></i> Pesan / Request Penawaran
+                            </button>
+                            <button onclick="viewProductDetail('${p.id}')" class="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold py-2 rounded-xl text-xs transition-colors flex items-center justify-center">
+                                Lihat Detail
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterCatalog() {
+            const search = document.getElementById('catalog-search').value.toLowerCase();
+            const cat = document.getElementById('catalog-category-filter').value;
+            const filtered = CATALOG_DATA.filter(p => {
+                const matchSearch = p.name.toLowerCase().includes(search) || p.desc.toLowerCase().includes(search);
+                const matchCat = cat === 'ALL' || p.cat === cat;
+                return matchSearch && matchCat;
+            });
+            renderCatalog(filtered);
+        }
+
+        /* RENDER PORTFOLIO */
+        function renderPortfolio(catFilter = 'ALL') {
+            const grid = document.getElementById('portfolio-grid');
+            const filtered = catFilter === 'ALL' ? PORTFOLIO_DATA : PORTFOLIO_DATA.filter(i => i.cat === catFilter);
+            grid.innerHTML = filtered.map(item => `
+                <div class="bg-navy-900 rounded-2xl border border-slate-800 overflow-hidden shadow-lg group">
+                    <div class="h-52 overflow-hidden relative">
+                        <img src="${item.img}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-950 via-transparent to-transparent"></div>
+                    </div>
+                    <div class="p-4">
+                        <span class="text-[10px] font-bold text-brand-lime uppercase tracking-wider">${item.cat}</span>
+                        <h4 class="font-bold text-sm text-white mt-0.5">${item.title}</h4>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterPortfolio(cat) {
+            document.querySelectorAll('.port-tab').forEach(b => {
+                b.classList.remove('bg-brand-green', 'text-white', 'active');
+                b.classList.add('bg-slate-800', 'text-slate-300');
+            });
+            event.target.classList.remove('bg-slate-800', 'text-slate-300');
+            event.target.classList.add('bg-brand-green', 'text-white', 'active');
+            renderPortfolio(cat);
+        }
+
+        /* MULTI STEP FORM LOGIC */
+        function openOrderModal() {
+            document.getElementById('order-modal').classList.remove('hidden');
+            currentStep = 1;
+            showFormStep(1);
+            document.getElementById('form-success-overlay').classList.add('hidden');
+            document.getElementById('quotation-form').classList.remove('hidden');
+        }
+
+        function openOrderForProduct(prodName) {
+            openOrderModal();
+            const radios = document.getElementsByName('selected_product');
+            for (let r of radios) {
+                if (r.value === prodName) {
+                    r.checked = true;
+                    updateStep1Selection(r);
+                    break;
+                }
+            }
+        }
+
+        function closeOrderModal() {
+            document.getElementById('order-modal').classList.add('hidden');
+        }
+
+        function updateStep1Selection(elem) {
+            document.querySelectorAll('.product-radio-card').forEach(c => {
+                c.classList.remove('border-brand-green', 'bg-brand-green/10');
+            });
+            elem.closest('.product-radio-card').classList.add('border-brand-green', 'bg-brand-green/10');
+        }
+
+        function changeFormStep(delta) {
+            // Validation before next step
+            if (delta > 0) {
+                if (currentStep === 2) {
+                    const name = document.getElementById('cust-name').value;
+                    const comp = document.getElementById('cust-company').value;
+                    const wa = document.getElementById('cust-wa').value;
+                    if (!name || !comp || !wa) {
+                        alert('Mohon lengkapi Nama Pemesan, Nama Perusahaan, dan Nomor WhatsApp.');
+                        return;
+                    }
+                }
+            }
+
+            currentStep += delta;
+            if (currentStep < 1) currentStep = 1;
+            if (currentStep > 5) currentStep = 5;
+
+            showFormStep(currentStep);
+        }
+
+        function showFormStep(step) {
+            document.querySelectorAll('.step-content').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`form-step-${step}`).classList.remove('hidden');
+
+            // Progress bar
+            const bar = document.getElementById('step-progress-bar');
+            bar.style.width = `${(step / 5) * 100}%`;
+
+            // Step labels highlight
+            for (let i = 1; i <= 5; i++) {
+                const lbl = document.getElementById(`step-label-${i}`);
+                if (i <= step) {
+                    lbl.classList.add('text-brand-green');
+                    lbl.classList.remove('text-slate-500');
+                } else {
+                    lbl.classList.remove('text-brand-green');
+                    lbl.classList.add('text-slate-500');
+                }
+            }
+
+            // Buttons visibility
+            const prevBtn = document.getElementById('prev-step-btn');
+            const nextBtn = document.getElementById('next-step-btn');
+            const submitBtn = document.getElementById('submit-req-btn');
+
+            prevBtn.classList.toggle('hidden', step === 1);
+            nextBtn.classList.toggle('hidden', step === 5);
+            submitBtn.classList.toggle('hidden', step !== 5);
+
+            if (step === 5) {
+                populateReviewData();
+            }
+        }
+
+        function toggleSpecUnknown(chk) {
+            const msg = document.getElementById('spec-unknown-msg');
+            const wrapper = document.getElementById('spec-fields-wrapper');
+            if (chk.checked) {
+                msg.classList.remove('hidden');
+                wrapper.classList.add('opacity-50');
+            } else {
+                msg.classList.add('hidden');
+                wrapper.classList.remove('opacity-50');
+            }
+        }
+
+        function handleFileSelect(input) {
+            const file = input.files[0];
+            const prev = document.getElementById('file-name-preview');
+            if (file) {
+                prev.innerText = `Berkas terpilih: ${file.name}`;
+                prev.classList.remove('hidden');
+            }
+        }
+
+        function populateReviewData() {
+            const selectedProd = document.querySelector('input[name="selected_product"]:checked').value;
+            const name = document.getElementById('cust-name').value;
+            const company = document.getElementById('cust-company').value;
+            const brand = document.getElementById('veh-brand').value;
+            const qty = document.getElementById('veh-qty').value;
+            const isUnknown = document.getElementById('spec-unknown').checked;
+
+            document.getElementById('review-product').innerText = selectedProd;
+            document.getElementById('review-cust').innerText = `${name} (${company})`;
+            document.getElementById('review-veh').innerText = `${brand || 'Chassis'} - ${qty} Unit`;
+
+            if (isUnknown) {
+                document.getElementById('review-spec').innerText = "Belum tahu spesifikasi (Bantuan teknis PRA)";
+            } else {
+                const dim = document.getElementById('spec-dim').value || '-';
+                const mat = document.getElementById('spec-material').value || '-';
+                document.getElementById('review-spec').innerText = `Dimensi: ${dim}, Mat: ${mat}`;
+            }
+
+            const docFile = document.getElementById('doc-upload').files[0];
+            document.getElementById('review-doc').innerText = docFile ? docFile.name : "Tidak ada";
+        }
+
+        function submitFinalQuotation() {
+            const reqId = 'PRA-' + new Date().getFullYear() + String(new Date().getMonth() + 1).padStart(2, '0') + '-' + Math.floor(1000 + Math.random() * 9000);
+            
+            const selectedProd = document.querySelector('input[name="selected_product"]:checked').value;
+            const name = document.getElementById('cust-name').value;
+            const company = document.getElementById('cust-company').value;
+            const wa = document.getElementById('cust-wa').value;
+            const email = document.getElementById('cust-email').value;
+            const brand = document.getElementById('veh-brand').value;
+            const qty = document.getElementById('veh-qty').value;
+            const isUnknown = document.getElementById('spec-unknown').checked;
+            
+            let specStr = isUnknown ? "Belum mengetahui spesifikasi (Perlu Bantuan PRA)" : `Dimensi: ${document.getElementById('spec-dim').value || '-'}, Material: ${document.getElementById('spec-material').value || '-'}`;
+            let notesStr = document.getElementById('spec-notes').value || '-';
+
+            const newReq = {
+                id: reqId,
+                date: new Date().toISOString().split('T')[0],
+                product: selectedProd,
+                name: name,
+                company: company,
+                wa: wa,
+                email: email,
+                chassis: `${brand} (${qty} Unit)`,
+                spec: specStr,
+                notes: notesStr,
+                status: 'Request diterima'
+            };
+
+            sampleRequests.unshift(newReq);
+            saveStoredRequests();
+            updateAdminStats();
+
+            lastCreatedReq = newReq;
+
+            document.getElementById('quotation-form').classList.add('hidden');
+            document.getElementById('created-req-id').innerText = reqId;
+            document.getElementById('form-success-overlay').classList.remove('hidden');
+        }
+
+        function sendToWhatsApp() {
+            if (!lastCreatedReq) return;
+            const r = lastCreatedReq;
+            const text = `Halo PT. Primasindo Raya Abadi,
+Saya ingin melakukan request penawaran jasa karoseri.
+
+ID Request: ${r.id}
+Produk: ${r.product}
+Jenis/Merek Kendaraan: ${r.chassis}
+Jumlah Unit: ${r.chassis}
+Spesifikasi: ${r.spec}
+Catatan: ${r.notes}
+
+Nama Pemesan: ${r.name}
+Perusahaan: ${r.company}
+Nomor Kontak: ${r.wa}
+
+Mohon informasi lebih lanjut mengenai harga dan proses pengerjaannya.
+Terima kasih.`;
+
+            const encoded = encodeURIComponent(text);
+            window.open(`https://wa.me/${companyConfig.waNumber.replace(/[^0-9]/g, '')}?text=${encoded}`, '_blank');
+        }
+
+        function openWhatsAppDirect() {
+            window.open(`https://wa.me/${companyConfig.waNumber.replace(/[^0-9]/g, '')}?text=Halo%20PT.%20Primasindo%20Raya%20Abadi,%20saya%20ingin%20konsultasi%20jasa%20karoseri.`, '_blank');
+        }
+
+        function searchRequestStatus() {
+            const query = document.getElementById('track-input').value.trim().toLowerCase();
+            const resultArea = document.getElementById('tracking-result-area');
+
+            if (!query) {
+                alert('Silakan masukkan nomor request atau nomor WhatsApp/email Anda.');
+                return;
+            }
+
+            const found = sampleRequests.find(r => 
+                r.id.toLowerCase() === query || 
+                r.wa.includes(query) || 
+                (r.email && r.email.toLowerCase().includes(query))
+            );
+
+            resultArea.classList.remove('hidden');
+
+            if (!found) {
+                resultArea.innerHTML = `
+                    <div class="bg-red-50 border border-red-200 p-6 rounded-2xl text-center text-red-700">
+                        <i class="fa-solid fa-circle-exclamation text-2xl mb-2"></i>
+                        <h4 class="font-bold">Data Request Tidak Ditemukan</h4>
+                        <p class="text-xs mt-1">Pastikan ID Request (${query}) atau Kontak yang dimasukkan sudah benar.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const statuses = [
+                'Request diterima',
+                'Sedang ditinjau',
+                'Penawaran sedang dibuat',
+                'Penawaran dikirim',
+                'Pesanan diproses',
+                'Dalam pengerjaan',
+                'Selesai'
+            ];
+
+            const currentIndex = statuses.indexOf(found.status) !== -1 ? statuses.indexOf(found.status) : 0;
+
+            resultArea.innerHTML = `
+                <div class="bg-slate-50 border border-slate-200 p-6 rounded-2xl space-y-6">
+                    <div class="flex flex-col sm:flex-row justify-between border-b pb-4 border-slate-200">
+                        <div>
+                            <span class="text-xs text-slate-400 font-bold">NOMOR REQUEST</span>
+                            <h3 class="text-xl font-black text-navy-900 font-mono">${found.id}</h3>
+                        </div>
+                        <div class="mt-2 sm:mt-0 text-left sm:text-right">
+                            <span class="text-xs text-slate-400 font-bold">STATUS TERKINI</span>
+                            <div><span class="inline-block bg-brand-green/20 text-brand-green font-extrabold text-xs px-3 py-1 rounded-full border border-brand-green/30">${found.status}</span></div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+                        <div><strong>Produk:</strong> ${found.product}</div>
+                        <div><strong>Pemesan:</strong> ${found.name} (${found.company})</div>
+                        <div><strong>Chassis Kendaraan:</strong> ${found.chassis}</div>
+                        <div><strong>Tanggal Pengajuan:</strong> ${found.date}</div>
+                    </div>
+
+                    <!-- VISUAL TIMELINE -->
+                    <div class="pt-4 border-t border-slate-200">
+                        <h4 class="font-bold text-xs text-slate-700 mb-4">TIMELINE PROSES PENAWARAN & PRODUCTION</h4>
+                        <div class="relative flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                            ${statuses.map((st, idx) => {
+                                const isDone = idx <= currentIndex;
+                                return `
+                                    <div class="flex sm:flex-col items-center space-x-2 sm:space-x-0 text-left sm:text-center flex-1">
+                                        <div class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs ${isDone ? 'bg-brand-green text-white shadow' : 'bg-slate-200 text-slate-500'}">
+                                            ${idx + 1}
+                                        </div>
+                                        <span class="text-[10px] font-bold mt-1 ${isDone ? 'text-navy-900' : 'text-slate-400'}">${st}</span>
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function viewProductDetail(id) {
+            const product = CATALOG_DATA.find(p => p.id === id);
+            if (!product) return;
+
+            const modalBody = document.getElementById('product-modal-body');
+            modalBody.innerHTML = `
+                <div class="p-6 space-y-4">
+                    <img src="${product.img}" alt="${product.name}" class="w-full h-64 object-cover rounded-2xl shadow-md">
+                    <div>
+                        <span class="text-[10px] font-bold text-brand-green uppercase tracking-wider bg-brand-green/10 px-2.5 py-1 rounded-full">Spesifikasi PRA Karoseri</span>
+                        <h3 class="text-2xl font-black text-navy-900 mt-2">${product.name}</h3>
+                        <p class="text-xs text-slate-600 mt-2 leading-relaxed">${product.desc}</p>
+                    </div>
+
+                    <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl text-xs space-y-2">
+                        <div class="flex justify-between border-b pb-1">
+                            <span class="text-slate-500">Estimasi Pengerjaan:</span>
+                            <span class="font-bold text-slate-800">[Dikonfirmasi Tim PRA]</span>
+                        </div>
+                        <div class="flex justify-between border-b pb-1">
+                            <span class="text-slate-500">Kapasitas Custom:</span>
+                            <span class="font-bold text-slate-800">[Sesuai Chassis Kendaraan]</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-slate-500">Sertifikat SRUT / Reg Dishub:</span>
+                            <span class="font-bold text-emerald-700"><i class="fa-solid fa-check mr-1"></i>Tersedia Terlampir</span>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-3 pt-2">
+                        <button onclick="closeProductModal(); openOrderForProduct('${product.name}')" class="flex-1 bg-gradient-to-r from-brand-lime to-brand-green text-white font-bold py-3 rounded-xl text-xs shadow-lg">
+                            Request Penawaran Unit Ini
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('product-modal').classList.remove('hidden');
+        }
+
+        function closeProductModal() {
+            document.getElementById('product-modal').classList.add('hidden');
+        }
+
+        function toggleAdminModal(show) {
+            document.getElementById('admin-modal').classList.toggle('hidden', !show);
+            if (show) {
+                renderAdminRequests();
+            }
+        }
+
+        function switchAdminTab(tab) {
+            document.getElementById('admin-sec-requests').classList.toggle('hidden', tab !== 'requests');
+            document.getElementById('admin-sec-settings').classList.toggle('hidden', tab !== 'settings');
+
+            document.getElementById('admin-tab-requests').className = tab === 'requests' ? 'pb-2 text-brand-lime border-b-2 border-brand-lime font-bold' : 'pb-2 text-slate-400 hover:text-slate-200 font-bold';
+            document.getElementById('admin-tab-settings').className = tab === 'settings' ? 'pb-2 text-brand-lime border-b-2 border-brand-lime font-bold' : 'pb-2 text-slate-400 hover:text-slate-200 font-bold';
+        }
+
+        function renderAdminRequests() {
+            const tbody = document.getElementById('admin-request-tbody');
+            tbody.innerHTML = sampleRequests.map(r => `
+                <tr class="hover:bg-slate-800/50">
+                    <td class="p-3 font-mono text-brand-lime font-bold">${r.id}</td>
+                    <td class="p-3">${r.date}</td>
+                    <td class="p-3">
+                        <div class="font-bold text-white">${r.name}</div>
+                        <div class="text-[10px] text-slate-400">${r.company} | ${r.wa}</div>
+                    </td>
+                    <td class="p-3 font-medium">${r.product}</td>
+                    <td class="p-3">${r.chassis}</td>
+                    <td class="p-3">
+                        <select onchange="updateRequestStatus('${r.id}', this.value)" class="bg-slate-900 border border-slate-700 text-slate-200 rounded px-2 py-1 text-[11px]">
+                            <option value="Request diterima" ${r.status === 'Request diterima' ? 'selected' : ''}>Request diterima</option>
+                            <option value="Sedang ditinjau" ${r.status === 'Sedang ditinjau' ? 'selected' : ''}>Sedang ditinjau</option>
+                            <option value="Penawaran sedang dibuat" ${r.status === 'Penawaran sedang dibuat' ? 'selected' : ''}>Penawaran sedang dibuat</option>
+                            <option value="Penawaran dikirim" ${r.status === 'Penawaran dikirim' ? 'selected' : ''}>Penawaran dikirim</option>
+                            <option value="Pesanan diproses" ${r.status === 'Pesanan diproses' ? 'selected' : ''}>Pesanan diproses</option>
+                            <option value="Dalam pengerjaan" ${r.status === 'Dalam pengerjaan' ? 'selected' : ''}>Dalam pengerjaan</option>
+                            <option value="Selesai" ${r.status === 'Selesai' ? 'selected' : ''}>Selesai</option>
+                        </select>
+                    </td>
+                    <td class="p-3">
+                        <button onclick="openAdminWhatsApp('${r.wa}', '${r.id}')" class="bg-emerald-600 hover:bg-emerald-700 text-white px-2.5 py-1 rounded text-[10px] font-bold">
+                            <i class="fa-brands fa-whatsapp mr-1"></i> Chat WA
+                        </button>
+                    </td>
+                </tr>
+            `).join('');
+        }
+
+        function updateRequestStatus(id, newStatus) {
+            const req = sampleRequests.find(r => r.id === id);
+            if (req) {
+                req.status = newStatus;
+                saveStoredRequests();
+                updateAdminStats();
+            }
+        }
+
+        function openAdminWhatsApp(waNum, reqId) {
+            window.open(`https://wa.me/${waNum.replace(/[^0-9]/g, '')}?text=Halo,%20menindaklanjuti%20request%20penawaran%20karoseri%20ID%20${reqId}%20dari%20PT.%20Primasindo%20Raya%20Abadi.`, '_blank');
+        }
+
+        function saveAdminSettings() {
+            const val = document.getElementById('admin-wa-input').value.trim();
+            if (val) {
+                companyConfig.waNumber = val;
+                document.getElementById('display-wa-num').innerText = val;
+                alert('Pengaturan WhatsApp Perusahaan berhasil diperbarui.');
+            }
+        }
+
+        function updateAdminStats() {
+            document.getElementById('stat-total').innerText = sampleRequests.length;
+            document.getElementById('stat-new').innerText = sampleRequests.filter(r => r.status === 'Request diterima').length;
+            document.getElementById('stat-process').innerText = sampleRequests.filter(r => r.status === 'Sedang ditinjau' || r.status === 'Penawaran sedang dibuat').length;
+            document.getElementById('stat-quotation').innerText = sampleRequests.filter(r => r.status === 'Penawaran dikirim').length;
+            document.getElementById('stat-active').innerText = sampleRequests.filter(r => r.status === 'Pesanan diproses' || r.status === 'Dalam pengerjaan').length;
+            document.getElementById('stat-completed').innerText = sampleRequests.filter(r => r.status === 'Selesai').length;
+        }
+
+        function saveStoredRequests() {
+            localStorage.setItem('pra_requests', JSON.stringify(sampleRequests));
+        }
+
+        function loadStoredRequests() {
+            const stored = localStorage.getItem('pra_requests');
+            if (stored) {
+                try {
+                    sampleRequests = JSON.parse(stored);
+                } catch(e) {}
+            }
+        }
+
+        function toggleMobileMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
